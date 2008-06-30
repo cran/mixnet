@@ -1,0 +1,9 @@
+useDynLib(mixnet)
+import(methods)
+export(mixnet)
+export(plot.mixnet)
+export(graph.affiliation)
+exportClasses(spmgraph)
+exportMethods(getEdges, getAdjacencyMatrix)
+
+
